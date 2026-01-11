@@ -216,6 +216,10 @@
   @apply text-[16px] leading-[20.8px] font-semibold;
 }
 
+@utility paragraph-bold {
+  @apply text-[16px] leading-[20.8px] font-bold;
+}
+
 @utility body-regular {
   @apply text-[14px] leading-[19.6px] font-normal;
 }
@@ -335,6 +339,10 @@
 @layer base {
   :root {
     --radius: 0.5rem;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
   }
 }
 

@@ -14,7 +14,7 @@ const MobileNavigation = async () => {
       <SheetTrigger asChild>
         <Image src={"/icons/hamburger.svg"} width={36} height={36} alt="menu" className="invert-colors sm:hidden" />
       </SheetTrigger>
-      <SheetContent side={"left"} className="background-light900_dark200 border-none lg:w-100">
+      <SheetContent side={"left"} className="background-light900_dark200 border-none max-sm:w-80">
         <SheetTitle className="hidden">Navigation</SheetTitle>
         <Link href={ROUTES.HOME} className="flex items-center gap-1">
           <Image src="/images/site-Logo.svg" width={23} height={23} alt="DevFlow Logo" />
